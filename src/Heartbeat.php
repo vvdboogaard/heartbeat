@@ -4,7 +4,8 @@ namespace Vvdboogaard\Heartbeat;
 
 use GuzzleHttp\Client;
 
-class Heartbeat {
+class Heartbeat
+{
     protected $http;
 
     public function __construct(Client $http)
